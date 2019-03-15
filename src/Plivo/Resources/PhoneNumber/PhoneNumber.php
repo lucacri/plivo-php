@@ -48,8 +48,6 @@ class PhoneNumber extends Resource
             'rateCenter' => $response['rate_center'],
             'region' => $response['region'],
             'resourceUri' => $response['resource_uri'],
-            'restriction' => $response['restriction'],
-            'restrictionText' => $response['restriction_text'],
             'setupRate' => $response['setup_rate'],
             'smsEnabled' => $response['sms_enabled'],
             'smsRate' => $response['sms_rate'],
